@@ -14,7 +14,7 @@ This project evaluates the effectiveness and equitable distribution of stormwate
 
 Each team member maintains their own repository for individual analyses and workflows. All repositories follow the same structure and data management guidelines.
 
-### Team Repositories [Repository Link](https://github.com/orgs/Water-eQuality/repositories)
+### Team Repositories
 
 - **Claire Anderson** - [Repository Link](https://github.com/Water-eQuality/Claire-Anderson)
 - **Samuel Cervantes** - [Repository Link](https://github.com/Water-eQuality/Samuel-Cervantes)
