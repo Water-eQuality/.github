@@ -198,7 +198,7 @@ This project uses a **distributed repository model** where:
 ## Contact
 
 For questions about this project, please contact:
-- **Bren School Group Projects**: [link to contact]
+- **Bren School Group Projects**: Lili Khosravi (https://mail.google.com/mail/u/0/#search/lkhosravi%40ucsb.edu?compose=new)
 - **Heal the Bay**: Annelisa Moe
 
 ## Acknowledgments
