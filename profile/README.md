@@ -23,7 +23,7 @@ Each team member maintains their own repository for individual analyses and work
 - **Tina Tran** - [Repository Link](#)
 
 ### Main Project Repository
-- **Water (e)Quality Main** - [Current Repository](https://github.com/your-org/water-equality-main](https://github.com/Water-eQuality/Water-eQuality-Data)
+- **Water (e)Quality Main** - [Current Repository](https://github.com/Water-eQuality/Water-eQuality-Data](https://github.com/Water-eQuality/Water-eQuality-Data)
 
 > **Note**: Replace the placeholder links above with actual GitHub repository URLs once created. Each team member should update their link in this README.
 
