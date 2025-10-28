@@ -16,11 +16,11 @@ Each team member maintains their own repository for individual analyses and work
 
 ### Team Repositories [Repository Link](https://github.com/orgs/Water-eQuality/repositories)
 
-- **Claire Anderson** - [Repository Link](#)
-- **Samuel Cervantes** - [Repository Link](#)
-- **Nico Gavigan** - [Repository Link](#)
-- **Lili Khosravi** - [Repository Link](#)
-- **Tina Tran** - [Repository Link](#)
+- **Claire Anderson** - [Repository Link](https://github.com/Water-eQuality/Claire-Anderson)
+- **Samuel Cervantes** - [Repository Link](https://github.com/Water-eQuality/Samuel-Cervantes)
+- **Nico Gavigan** - [Repository Link](https://github.com/Water-eQuality/Nico-Gavigan)
+- **Lili Khosravi** - [Repository Link](https://github.com/Water-eQuality/Lili-Khosravi-)
+- **Tina Tran** - [Repository Link](https://github.com/Water-eQuality/Tina-Tran)
 
 ### Main Project Repository
 - **Water (e)Quality Main** - [Repository Link](https://github.com/Water-eQuality/Water-eQuality-Data)
@@ -157,7 +157,7 @@ This project uses a **distributed repository model** where:
 
 1. **Clone the main repository** for access to shared datasets and documentation
    ```bash
-   git clone https://github.com/your-org/water-equality-main.git
+   git clone https://github.com/Water-eQuality/Water-eQuality-Data.git
    ```
 
 2. **Use your individual repository** for:
