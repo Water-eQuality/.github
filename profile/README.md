@@ -25,15 +25,26 @@ Each team member maintains their own repository for individual analyses and work
 ### Main Project Repository
 - **Water (e)Quality Main** - [Repository Link](https://github.com/Water-eQuality/Water-eQuality-Data)
 
-## Project Objectives
-
-1. **Ten-Year Water Quality Analysis**: Conduct a comprehensive analysis of Los Angeles County beach and river fecal indicator bacteria (FIB) data (2014-2024) to identify long-term trends in water quality.
-
-2. **Stormwater Capture Project Impact Assessment**: Determine how stormwater capture projects impact downstream water quality through before-and-after analyses.
-
-3. **Future Investment Recommendations**: Identify priority areas in LA County for new stormwater capture project implementation, considering both efficacy and equity.
-
 ## Repository Structure
+
+### Individual Member Repositories
+
+Each team member's repository follows this structure:
+
+```
+[Member-Name]/
+├── data/                       # Data files and inputs for individual analyses
+├── docs/                       # Documentation and reference materials
+├── outputs/                    # Generated figures, maps, and analysis outputs
+├── scripts/                    # Analysis, cleaning, and visualization scripts (R, Python)
+├── .gitignore                  # Git ignore rules
+├── README.md                   # Repository documentation
+└── [Member-Name].Rproj         # RStudio project file
+```
+
+### Main Project Repository
+
+The main repository houses shared data, final analyses, and project deliverables:
 
 ```
 water-equality/
@@ -58,6 +69,14 @@ water-equality/
 │   └── methods/               # Detailed methodology documentation
 └── README.md
 ```
+
+## Project Objectives
+
+1. **Ten-Year Water Quality Analysis**: Conduct a comprehensive analysis of Los Angeles County beach and river fecal indicator bacteria (FIB) data (2014-2024) to identify long-term trends in water quality.
+
+2. **Stormwater Capture Project Impact Assessment**: Determine how stormwater capture projects impact downstream water quality through before-and-after analyses.
+
+3. **Future Investment Recommendations**: Identify priority areas in LA County for new stormwater capture project implementation, considering both efficacy and equity.
 
 ## Key Data Sources
 
@@ -207,4 +226,4 @@ This project is conducted in partnership with Heal the Bay and supported by the 
 
 ---
 
-*Last Updated: October 2025*
+*Last Updated: May 2026*
