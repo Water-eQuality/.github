@@ -17,10 +17,10 @@ Each team member maintains their own repository for individual analyses and work
 ### Team Repositories
 
 - **Claire Anderson** - [Repository Link](https://github.com/Water-eQuality/Claire-Anderson)
-- **Samuel Cervantes** - [Repository Link](https://github.com/Water-eQuality/Samuel-Cervantes)
-- **Nico Gavigan** - [Repository Link](https://github.com/Water-eQuality/Nico-Gavigan)
+- **Samuel Cervantes** - [Repository Link](https://github.com/Water-eQuality/Samuel-Cervantes) — contains all materials for the cost and equity analysis
+- **Nico Gavigan** - [Repository Link](https://github.com/Water-eQuality/Nico-Gavigan) — contains all materials for the Stormwater Capture Project Efficacy analysis
 - **Lili Khosravi** - [Repository Link](https://github.com/Water-eQuality/Lili-Khosravi-)
-- **Tina Tran** - [Repository Link](https://github.com/Water-eQuality/Tina-Tran)
+- **Tina Tran** - [Repository Link](https://github.com/Water-eQuality/Tina-Tran) — contains all materials for the FIB and Precipitation Analysis
 
 ### Main Project Repository
 - **Water (e)Quality Main** - [Repository Link](https://github.com/Water-eQuality/Water-eQuality-Data)
@@ -47,27 +47,57 @@ Each team member's repository follows this structure:
 The main repository houses shared data, final analyses, and project deliverables:
 
 ```
-water-equality/
+Water-eQuality-Data/
 ├── data/
-│   ├── raw/                    # Original, unmodified data files
-│   │   ├── beach_fib/         # Beach water quality data (1995-2024)
-│   │   ├── river_fib/         # River monitoring data (2014-present)
-│   │   ├── precipitation/     # AccuWeather and NowCast rainfall data
-│   │   └── stormwater_projects/ # SWCP inventory and metadata
-│   ├── processed/             # Cleaned and processed datasets
-│   └── metadata/              # Data dictionaries and documentation
-├── scripts/
-│   ├── data_cleaning/         # Data processing and cleaning scripts
-│   ├── analysis/              # Analysis scripts (R, Python)
-│   └── visualization/         # Plotting and mapping scripts
+│   ├── raw/                                        # Original, unmodified data files
+│   │   ├── CalEnviroScreen/                        # CalEnviroScreen 4.0 data
+│   │   ├── beach_monitoring_location_data/         # Beach monitoring site locations
+│   │   ├── precipitation/                          # Precipitation station data
+│   │   ├── public_parks/                           # County parks and open space data
+│   │   ├── shapefiles/                             # Spatial boundary files
+│   │   ├── wramps/                                 # WRAMPS stormwater project data
+│   │   ├── beach_monitoring_data_start_dates.csv
+│   │   ├── countywide_parks_and_open_space.csv
+│   │   ├── la_major_rivers.zip
+│   │   ├── la_public_health_beach_testing_locations_master_copy.csv
+│   │   ├── national_priorities_list_boundaries.zip
+│   │   ├── raw_master_beach_data_2014_2024.csv
+│   │   ├── storm_drains_2024.csv
+│   │   └── tree_canopy_coverage.zip
+│   ├── processed/                                  # Cleaned and analysis-ready datasets
+│   │   ├── beach_data/
+│   │   ├── parcels/
+│   │   ├── precipitation/
+│   │   ├── recommended_sites/
+│   │   ├── river_data/
+│   │   └── wramps/
+│   └── archive/                                    # Superseded or legacy data files
+│       ├── htb_fib_all_clean.csv
+│       ├── htb_fib_loc_na.csv
+│       ├── htb_rain_clean.csv
+│       ├── htb_tbl_california_rain.xlsx
+│       └── htb_tbl_location.xlsx
+├── figures/                                        # Generated figures
+│   ├── beach_graph_total_samples/
+│   ├── beach_zero/
+│   ├── fib_timeseries_log/
+│   ├── fib_timeseries_no_log/
+│   ├── summer_river_figures/
+│   └── full_data_heatmap.png
 ├── outputs/
-│   ├── figures/               # Generated plots and visualizations
-│   ├── maps/                  # GIS maps and spatial analyses
-│   └── reports/               # Analysis reports and summaries
-├── docs/
-│   ├── interim_report.pdf     # Project interim report
-│   └── methods/               # Detailed methodology documentation
-└── README.md
+│   └── figures/                                    # Polished output figures
+├── scripts/                                        # Analysis and processing scripts
+│   ├── analysis/
+│   ├── data_cleaning/
+│   ├── lili/
+│   │   ├── exceedance_plots.R
+│   │   └── lili_exceedance_analysis.qmd
+│   └── tina/
+│       └── sample_count_figures.qmd
+├── .gitignore
+├── README.md
+├── Watershed Control Measures Completed Tab...     # Watershed control measures reference table
+└── water_equality_gp.Rproj                         # RStudio project file
 ```
 
 ## Project Objectives
