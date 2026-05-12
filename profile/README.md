@@ -2,6 +2,10 @@
 
 A Bren School of Environmental Science & Management Master's Group Project (2025-2026)
 
+## About This README
+
+This README serves as the central navigation guide for the Water (e)Quality project repositories. It documents the structure of both the main shared repository and each team member's individual repository, describes the data sources and file organization conventions used across the project, and provides context on each team member's analytical focus area. Whether you are a team member onboarding to the project, a collaborator seeking to understand how the work is organized, or a reviewer exploring the codebase, this document is the starting point for understanding how the project is structured and where to find specific analyses, data, and outputs.
+
 ## Project Overview
 
 This project evaluates the effectiveness and equitable distribution of stormwater capture projects in Los Angeles County, analyzing their impact on water quality at beaches and rivers. We utilize a decade of fecal indicator bacteria (FIB) data to understand long-term trends and make recommendations for future stormwater infrastructure investments.
