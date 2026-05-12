@@ -195,60 +195,10 @@ This project supports critical advocacy for improving stormwater regulation in L
 
 Urban runoff is the primary source of pollution degrading LA County's surface water quality. With 70% of rainfall occurring January-March and extensive impervious surfaces, stormwater carries pollutants directly to rivers and beaches, causing ~3.5 million sick days annually in California due to contaminated beach waters.
 
-## Collaborative Workflow
-
-### Repository Structure
-This project uses a **distributed repository model** where:
-- **Main Repository**: Houses shared data, final analyses, and project deliverables
-- **Individual Repositories**: Each team member maintains their own repo for exploratory analysis, development, and testing
-
-### Working Across Repositories
-
-1. **Clone the main repository** for access to shared datasets and documentation
-   ```bash
-   git clone https://github.com/Water-eQuality/Water-eQuality-Data.git
-   ```
-
-2. **Use your individual repository** for:
-   - Exploratory data analysis
-   - Testing new methods
-   - Developing visualizations
-   - Draft analyses and scripts
-
-3. **Contribute to main repository** by:
-   - Creating pull requests for finalized code
-   - Adding polished visualizations to `outputs/`
-   - Updating shared documentation
-   - Contributing to analysis reports
-
-### Best Practices for Collaboration
-- **Sync regularly**: Pull updates from main repo frequently
-- **Document everything**: Clear comments in code and README updates
-- **Coordinate on Slack/Trello**: Discuss before major changes to main repo
-- **Code reviews**: Have at least one team member review pull requests
-- **Consistent naming**: Follow the data management guidelines across all repos
-
-### File Naming Conventions
-- Use descriptive names: `beach_fib_2014-2024_cleaned.csv`
-- Include dates: `YYYY-MM-DD` or `YYYYMMDD`
-- No spaces (use underscores or hyphens)
-- Use lowercase for consistency
-
-### Version Control
-- Commit frequently with clear messages
-- Never commit raw data files >100MB (use Git LFS if needed)
-- Document all data transformations in scripts
-
-### Data Privacy
-- Do not commit sensitive or unpublished data
-- Follow Heal the Bay's data sharing agreements
-- Coordinate with client before sharing results publicly
-
 ## Contact
 
 For questions about this project, please contact:
-- **Bren School Group Projects**: Lili Khosravi (lkhosravi@ucsb.edu)
-- **Heal the Bay**: Annelisa Moe
+- **Bren School Group Projects**: Lili Khosravi (lkhosravi@bren.ucsb.edu)
 
 ## Acknowledgments
 
