@@ -24,7 +24,7 @@ Each team member maintains their own repository for individual analyses and work
 - **Samuel Cervantes** - [Repository Link](https://github.com/Water-eQuality/Samuel-Cervantes) — contains all materials for the cost and equity analysis
 - **Nico Gavigan** - [Repository Link](https://github.com/Water-eQuality/Nico-Gavigan) — contains all materials for the Stormwater Capture Project Efficacy analysis
 - **Lili Khosravi** - [Repository Link](https://github.com/Water-eQuality/Lili-Khosravi-)
-- **Tina Tran** - [Repository Link](https://github.com/Water-eQuality/Tina-Tran) — contains all materials for the FIB and Precipitation Analysis
+- **Tina Tran** - [Repository Link](https://github.com/Water-eQuality/Tina-Tran) — contains all materials for the FIB and Precipitation analysis and WMMS 2.0 analysis
 
 ### Main Project Repository
 - **Water (e)Quality Main** - [Repository Link](https://github.com/Water-eQuality/Water-eQuality-Data)
